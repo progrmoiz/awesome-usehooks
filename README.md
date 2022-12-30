@@ -4,7 +4,7 @@ A collection of super duper useful hooks for use in React TypeScript projects. Y
 ## 🔌 Installation
 No installation is required. Simply copy and paste the hooks you want to use into your project. It's that easy! 🤓
 
-## 🎣 Hooks
+## 🛠 Hooks
 - `useLocalStorage`: A hook for using local storage in a React TypeScript application. No more reaching for that pesky window object! 🤯
 - `useTheme`: A hook for managing a theme in a React TypeScript application. Finally, an easy way to toggle between light and dark mode! 🌞🌚
 

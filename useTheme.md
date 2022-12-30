@@ -43,13 +43,13 @@ The `useTheme` hook returns an array with two elements:
 const [theme, toggleTheme] = useTheme(initialTheme: Theme): [Theme, () => void]
 ```
 
-This component will render a button that allows you to toggle between a light and a dark theme, and a paragraph that displays the current theme. The theme will be persisted in local storage using the theme key, so it will be remembered across page refreshes.
+The `initialTheme` argument should be a string with a value of either `'light'` or `'dark'`.
 
 ## License
 This project is licensed under the MIT License.
 
 ## Note
-The theme is persisted in local storage using the theme key. If a theme is stored in local storage, it will be used as the initial theme when the hook is called. If no theme is stored in local storage, the provided initialTheme argument will be used as the initial theme.
+The theme is persisted in local storage using the `theme` key. If a theme is stored in local storage, it will be used as the initial theme when the hook is called. If no theme is stored in local storage, the provided `initialTheme` argument will be used as the initial theme.
 
 ## Code
 ```ts

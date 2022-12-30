@@ -33,7 +33,7 @@ The `useLocalStorage` hook returns an array with two elements:
 - The current value stored in local storage for the given key.
 - A function for updating the value.
 
-```
+```ts
 const [value, setValue] = useLocalStorage(key: string, initialValue: T): [T, (value: T) => void]
 ```
 
@@ -45,7 +45,7 @@ This hook includes a check to see if the window object exists before using it. I
 
 ## Code
 
-```
+```ts
 import { useState, useEffect } from 'react';
 
 const useLocalStorage = <T>(key: string, initialValue: T): [T, (value: T) => void] => {

@@ -7,6 +7,8 @@ No installation is required. Simply copy and paste the hooks you want to use int
 ## 🛠 Hooks
 - `useLocalStorage`: A hook for using local storage in a React TypeScript application. No more reaching for that pesky window object! 🤯
 - `useTheme`: A hook for managing a theme in a React TypeScript application. Finally, an easy way to toggle between light and dark mode! 🌞🌚
+- `useForm`: A hook for managing form state in a React TypeScript application. Say goodbye to messy form handling code! 📝
+- `useIsMobile`: A hook for detecting if the user is on a mobile device. Comes in handy for creating responsive designs. 📱
 
 ## 🤝 Contributing
 We welcome contributions to this project! If you have an idea for a hook that you think would be useful to others (or just really cool), please feel free to submit a pull request. We'll review it as soon as we can, but we might be a little too busy using these awesome hooks. 😅
